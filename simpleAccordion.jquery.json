@@ -1,0 +1,34 @@
+{
+    "name": "simpleAccordion",
+    "title": "jQuery accordion plugin",
+    "description": "This is a simple configuration accordion plugin.",
+    "keywords": [,
+        "animation",
+        "ui",
+        "effect",
+        "jquery"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Juhász István",
+        "email": "juhasz.istvan28@windowslive.com"
+    },
+    "maintainers": [
+        {
+            "name": "Juhász István",
+            "email": "juhasz.istvan28@windowslive.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/Steve30/accordion/blob/master/license"
+        }
+    ],
+    "bugs": "https://github.com/Steve30/accordion/issues",
+    "homepage": "https://github.com/Steve30/accordion",
+    "docs": "https://github.com/Steve30/accordion",
+    "dependencies": {
+        "jquery": ">=1.8"
+    }
+}
