@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple accordion demo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet" href="default.css"/>
+        <script type="text/javascript" src="js/libs/jquery-1.9.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/libs/jQueryRotateCompressed.2.2.js"></script>
+        <script type="text/javascript" src="js/libs/simpleAccordion.min.js"></script>
+        <style>
+            #accordion li {
+                overflow: hidden;
+            }
+            #accordion li a {
+                width: 100%;
+                float: left;
+            }
+            #accordion li a span {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="layout">
+            <header>
+                Fejléc
+            </header>
+            <section>
+                <ul id="accordion">
+                    <li class="menu-item">
+                        <a href="#" id="item-1"><span>Menü 1</span></a>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" id="item-2"><span>Menü 2</span></a>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" id="item-3"><span>Menü 3</span></a>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    </li> 
+                </ul>
+                <div class="clear">&nbsp;</div>
+            </section>
+            <footer>
+                Lábléc
+            </footer>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#accordion').simpleAccordion({
+                    accordionType: 'vertical',
+                    menuItemContainerClass: '.menu-item',
+                    defaultPageNumber: 1,
+                    speed: 200
+                });
+            });
+        </script>
+    </body>
+</html>
