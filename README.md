@@ -42,7 +42,7 @@ accordion
   Demo:
 </h3>
 <p>
-  You find demo in the index.html file.
+  You find demo in the index.html file.<br/>
   Note: If the accordion is horizontal, you use the jQuery Rotate plugin.
 </p>
 </div>
