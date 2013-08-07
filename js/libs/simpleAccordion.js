@@ -185,7 +185,7 @@
 						}, this.animSpeed);
 					}
 				}
-			}
+			};
 
 			this.init = function(opt) {
 				$.proxy(this.plugin.initialize(this, opt), this.plugin);
